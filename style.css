@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Yrsa&display=swap');
+body{
+    background-image: url(img/bgg.jpg);
+    background-size: cover;
+}
+/* navbar */
+
+
+
+.navbar {
+    font-size: 4rem;
+    list-style: none;
+    font-weight: medium;
+    padding-left: 20px;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  
+  .navbar:hover {
+    transform: translateX(20px);
+    opacity: 0.8;
+
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: text;
+  }
+ 
+/* section */
+.main-section {
+    position: absolute;
+    top: 120px;
+    right: 87px; /* Adjust the right value to set the section position */
+    max-width: 600px; /* Set a max width for the section if needed */
+    padding: 20px; /* Add some padding to the section content */
+  }
+  
+  .main-section p {
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+  }
+
+
+/* Footer */
+footer {
+    
+    padding: 24px 0;
+    text-align: center;
+    position: fixed; /* Make the footer fixed */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-logo span {
+    font-size: 18px;
+    color: #f7fafc;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+/* Optional: Add some margin at the bottom to create some space between the footer and page content */
+.page-content {
+    margin-bottom: 80px;
+}
