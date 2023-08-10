@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Yrsa&display=swap');
 body{
-    background-image: url(img/bgg.jpg);
+    background-image: url(bgg.jpg);
     background-size: cover;
 }
 /* navbar */
